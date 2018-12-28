@@ -1,0 +1,63 @@
+/* 
+    Created by Simeon Dominiq
+    27/12/2018
+    **Do not erase**
+*/
+
+body {
+    margin: 0px;
+    margin: 0px;
+}
+
+.text-color-pink {
+    color: #ef64a5 !important;
+}
+@media (min-width: 992px) {
+    .navbar-expand-lg .navbar-nav .nav-link {
+        color: #00bdb8;
+        font-size: 15px;
+        text-transform: uppercase;
+        padding: .5em 2.5em;
+        font-weight: 500;
+    }
+}
+.navbar-brand h6 {
+    color: #6c25d6;
+    font-weight: 700;
+}
+.intro {
+    background: url(../images/intro_bg.svg) #ffffff no-repeat;
+    background-size: 76%;
+    background-position-x: 100%;
+    position: relative;
+    height: 100vh;
+    padding: 270px 0px 100px 0px;
+}
+@media(max-width: 768px) {
+    .intro {
+        background-size: 90%;
+    }
+}
+.intro-caption {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.intro-caption h2 {
+    color: #ef64a5;
+    font-weight: 700;
+}
+.intro-caption p {
+    color: #343436;
+    font-size: 15px;
+}
+.intro-caption .btn-primary {
+    border-radius: 15rem;
+    padding: .8em 3.5em;
+    background: #6c25d6;
+    border-color: #6c25d6;
+}
+.intro-caption .btn-primary:hover {
+    opacity: .8;
+}
+
+

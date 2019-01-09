@@ -20,6 +20,9 @@ body {
         padding: .5em 2.5em;
         font-weight: 500;
     }
+    .navbar-expand-lg .navbar-nav .nav-link:hover {
+        color: #00a49f;
+    }
 }
 .navbar-brand h6 {
     color: #6c25d6;
